@@ -1,0 +1,4 @@
+2026-06-01 16:00:51,007 | mmcli-diagnostics | INFO | Starting script!
+2026-06-01 16:00:51,007 | mmcli-diagnostics | DEBUG | Checking if mmcli is installed
+2026-06-01 16:00:51,018 | mmcli-diagnostics | DEBUG | Checking if mmcli is active and running
+2026-06-01 16:00:51,042 | mmcli-diagnostics | ERROR | Your system does not have ModemManager ready for diagnostics

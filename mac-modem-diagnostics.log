@@ -1,0 +1,10 @@
+2026-06-01 16:27:48,156 | mac-modem-diagnostics | INFO | Starting macOS modem diagnostics
+2026-06-01 16:27:48,161 | mac-modem-diagnostics | INFO | Probing 2 serial port(s) for an AT-capable modem...
+2026-06-01 16:27:48,161 | mac-modem-diagnostics | DEBUG | Probing /dev/tty.AUKEYBR-C1
+2026-06-01 16:27:49,721 | mac-modem-diagnostics | DEBUG |   /dev/tty.AUKEYBR-C1: no OK (got '')
+2026-06-01 16:27:49,722 | mac-modem-diagnostics | DEBUG | Probing /dev/tty.debug-console
+2026-06-01 16:27:51,279 | mac-modem-diagnostics | DEBUG |   /dev/tty.debug-console: no OK (got '')
+2026-06-01 16:27:51,280 | mac-modem-diagnostics | ERROR | No modem responded to AT on any serial port.
+2026-06-01 16:27:51,280 | mac-modem-diagnostics | ERROR | Ports tried: ['/dev/tty.AUKEYBR-C1', '/dev/tty.debug-console']
+2026-06-01 16:27:51,281 | mac-modem-diagnostics | ERROR | Aborting: no AT-capable modem found.
+2026-06-01 16:27:51,281 | mac-modem-diagnostics | ERROR | Make sure your USB cellular modem is plugged in and exposed as /dev/tty.usbmodem*
